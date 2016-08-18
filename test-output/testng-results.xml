@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ShipwireTestSuite" duration-ms="7311" started-at="2016-08-18T16:22:28Z" finished-at="2016-08-18T16:22:35Z">
+    <groups>
+    </groups>
+    <test name="CreateOrderTest" duration-ms="2191" started-at="2016-08-18T16:22:28Z" finished-at="2016-08-18T16:22:30Z">
+      <class name="com.shipwire.CreateOrderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.shipwire.CreateOrderTest@71f2a7d5]" name="setup" is-config="true" duration-ms="11" started-at="2016-08-18T09:22:28Z" finished-at="2016-08-18T09:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createOrder()[pri:0, instance:com.shipwire.CreateOrderTest@71f2a7d5]" name="createOrder" duration-ms="1624" started-at="2016-08-18T09:22:28Z" finished-at="2016-08-18T09:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shipwire.CreateOrderTest@71f2a7d5]" name="tearDown" is-config="true" duration-ms="538" started-at="2016-08-18T09:22:30Z" finished-at="2016-08-18T09:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shipwire.CreateOrderTest -->
+    </test> <!-- CreateOrderTest -->
+    <test name="RetrieveOrderTest" duration-ms="1577" started-at="2016-08-18T16:22:30Z" finished-at="2016-08-18T16:22:32Z">
+      <class name="com.shipwire.RetrieveOrderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.shipwire.RetrieveOrderTest@23223dd8]" name="setup" is-config="true" duration-ms="591" started-at="2016-08-18T09:22:30Z" finished-at="2016-08-18T09:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="retrieveOrder()[pri:0, instance:com.shipwire.RetrieveOrderTest@23223dd8]" name="retrieveOrder" duration-ms="358" started-at="2016-08-18T09:22:31Z" finished-at="2016-08-18T09:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shipwire.RetrieveOrderTest@23223dd8]" name="tearDown" is-config="true" duration-ms="626" started-at="2016-08-18T09:22:31Z" finished-at="2016-08-18T09:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shipwire.RetrieveOrderTest -->
+    </test> <!-- RetrieveOrderTest -->
+    <test name="EditOrderTest" duration-ms="2141" started-at="2016-08-18T16:22:32Z" finished-at="2016-08-18T16:22:34Z">
+      <class name="com.shipwire.EditOrderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.shipwire.EditOrderTest@19bb089b]" name="setup" is-config="true" duration-ms="608" started-at="2016-08-18T09:22:32Z" finished-at="2016-08-18T09:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="editOrder()[pri:0, instance:com.shipwire.EditOrderTest@19bb089b]" name="editOrder" duration-ms="819" started-at="2016-08-18T09:22:32Z" finished-at="2016-08-18T09:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shipwire.EditOrderTest@19bb089b]" name="tearDown" is-config="true" duration-ms="709" started-at="2016-08-18T09:22:33Z" finished-at="2016-08-18T09:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shipwire.EditOrderTest -->
+    </test> <!-- EditOrderTest -->
+    <test name="CancelOrderTest" duration-ms="1317" started-at="2016-08-18T16:22:34Z" finished-at="2016-08-18T16:22:35Z">
+      <class name="com.shipwire.CancelOrderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.shipwire.CancelOrderTest@7cf10a6f]" name="setup" is-config="true" duration-ms="531" started-at="2016-08-18T09:22:34Z" finished-at="2016-08-18T09:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="cancelOrder()[pri:0, instance:com.shipwire.CancelOrderTest@7cf10a6f]" name="cancelOrder" duration-ms="781" started-at="2016-08-18T09:22:35Z" finished-at="2016-08-18T09:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelOrder -->
+      </class> <!-- com.shipwire.CancelOrderTest -->
+    </test> <!-- CancelOrderTest -->
+  </suite> <!-- ShipwireTestSuite -->
+</testng-results>

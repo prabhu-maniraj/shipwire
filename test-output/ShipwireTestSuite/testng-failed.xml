@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ShipwireTestSuite]">
+  <test name="CreateOrderTest(failed)">
+    <classes>
+      <class name="com.shipwire.CreateOrderTest">
+        <methods>
+          <include name="createOrder" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.shipwire.CreateOrderTest -->
+    </classes>
+  </test> <!-- CreateOrderTest(failed) -->
+</suite> <!-- Failed suite [ShipwireTestSuite] -->

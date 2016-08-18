@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ShipwireTestSuite">
+
+	<test name="CreateOrderTest" enabled="True">
+		<classes>
+			<class
+				name="com.shipwire.CreateOrderTest" />
+		</classes>
+	</test> 
+	<test name="RetrieveOrderTest" enabled="True">
+		<classes>
+			<class
+				name="com.shipwire.RetrieveOrderTest" />
+		</classes>
+	</test> 
+	<test name="EditOrderTest" enabled="True">
+		<classes>
+			<class
+				name="com.shipwire.EditOrderTest" />
+		</classes>
+	</test> 
+	<test name="CancelOrderTest" enabled="True">
+		<classes>
+			<class
+				name="com.shipwire.CancelOrderTest" />
+		</classes>
+	</test> 
+	
+	
+</suite> <!-- Suite -->
